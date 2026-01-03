@@ -269,44 +269,6 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 60
 
 ⚠️ **Important**: Change `SECRET_KEY` before deploying to production!
 
-## 🧪 Testing
-
-Run the test suite:
-
-```bash
-pytest tests/ -v
-```
-
-Test ML model:
-
-```bash
-python -m pytest tests/test_ml.py
-```
-
-## 🚢 Deployment
-
-### Docker (Recommended)
-
-```dockerfile
-FROM python:3.10-slim
-
-WORKDIR /app
-
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-
-COPY . .
-
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
-```
-
-Build and run:
-
-```bash
-docker build -t fastapi-ml-api .
-docker run -p 8000:8000 --env-file .env fastapi-ml-api
-```
-
 ### Production Checklist
 
 - [ ] Change `SECRET_KEY` in `security.py`
@@ -330,27 +292,6 @@ This boilerplate is ideal for:
 - **AI-powered chatbots** with user management
 - **NLP research** projects with API interface
 
-## 🛣️ Roadmap
-
-- [ ] Add more ML models (NER, summarization)
-- [ ] Implement model versioning
-- [ ] Add metrics dashboard (Grafana)
-- [ ] Vector database integration (Pinecone/Weaviate)
-- [ ] LangChain integration for LLMs
-- [ ] A/B testing framework for models
-- [ ] Real-time monitoring and alerts
-- [ ] Multi-language support
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -359,9 +300,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Your Name**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Portfolio: [yourwebsite.com](https://yourwebsite.com)
+- GitHub: [@yourusername](https://github.com/javsan77)
+- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/javier-sanchez-ayte/)
+- Portfolio: [yourwebsite.com](https://javsan77.github.io/)
 
 ## 🙏 Acknowledgments
 
@@ -369,16 +310,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [scikit-learn](https://scikit-learn.org/) - Machine learning library
 - [SQLAlchemy](https://www.sqlalchemy.org/) - SQL toolkit
 - [Pydantic](https://pydantic-docs.helpmanual.io/) - Data validation
-
-## 📞 Support
-
-If you have any questions or need help:
-
-- Open an [issue](https://github.com/yourusername/fastapi-ml-api/issues)
-- Email: your.email@example.com
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)
-
----
 
 <div align="center">
 
