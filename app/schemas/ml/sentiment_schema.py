@@ -11,7 +11,7 @@ class SentimentResponse(BaseModel):
     sentiment: str # POSITIVE, NEGATIVE, NEUTRAL
     confidence: float
     scores: dict # {"positive":0.8, "negative": 0.1, "neutral": 0.1}
-    analized_at: datetime
+    analyzed_at: datetime
 
 class SentimentBatchRequest(BaseModel):
     texts: list[str] = Field(..., max_items=100)
