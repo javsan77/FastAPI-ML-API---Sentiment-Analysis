@@ -68,7 +68,7 @@ class SentimentModel:
             raise Exception("Model not trained. Run first  train_model.py")
         
         # Get probabilities
-        probas = self.model.predict_proba([text][0])
+        probas = self.model.predict_proba([text])[0]
         classes = self.model.classes_
 
         # create dictionary of scores

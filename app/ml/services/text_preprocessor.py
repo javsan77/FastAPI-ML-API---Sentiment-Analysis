@@ -18,6 +18,11 @@ class TextPreprocessor:
             nltk.download('stopwords')
             self.stop_words = set(stopwords.words(language))
 
+        try:
+            nltk.data.find('tokenizers/punkt_tab')
+        except LookupError:
+            nltk.download('punkt_tab')
+
     def clean_text(self, text: str):
         """Limpia el texto removiendo caracteres especiales y normalizando"""
         # Convert to lowercase
