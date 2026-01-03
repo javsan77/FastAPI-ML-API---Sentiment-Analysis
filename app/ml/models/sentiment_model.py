@@ -77,7 +77,7 @@ class SentimentModel:
         # Gain prediction and confidence
         predicted_idx = np.argmax(probas)
         sentiment = classes[predicted_idx]
-        confidence = float([probas[predicted_idx]])
+        confidence = float(probas[predicted_idx])
 
         return sentiment, confidence, scores
     
