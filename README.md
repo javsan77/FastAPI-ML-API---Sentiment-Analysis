@@ -298,7 +298,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**Your Name**
+**Javier Sanchez Ayte**
 
 - [GitHub](https://github.com/javsan77)
 - [LinkedIn](https://www.linkedin.com/in/javier-sanchez-ayte/)
