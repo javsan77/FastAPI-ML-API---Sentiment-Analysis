@@ -62,15 +62,15 @@ Perfect foundation for building **AI-powered applications** that require user au
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/fastapi-ml-api.git
-cd fastapi-ml-api
+git clone https://github.com/javsan77/FastAPI-ML-API---Sentiment-Analysis.git
+cd FastAPI-ML-API---Sentiment-Analysis
 ```
 
 2. **Create virtual environment**
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+source venv/bin/activate
 ```
 
 3. **Install dependencies**
