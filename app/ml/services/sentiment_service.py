@@ -16,7 +16,7 @@ class SentimentService:
         self.model = SentimentModel()
 
         # Attempt to load pre-trained model
-        if not self.model.load.model():
+        if not self.model.load_model():
             logger.warning("Trained model not found. Use /ml/train to train")
 
     def analyze(self, text: str, user_id: int = None) -> dict:
