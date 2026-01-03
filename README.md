@@ -300,9 +300,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Your Name**
 
-- GitHub: [@yourusername](https://github.com/javsan77)
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/javier-sanchez-ayte/)
-- Portfolio: [yourwebsite.com](https://javsan77.github.io/)
+- GitHub: [@javsan77](https://github.com/javsan77)
+- LinkedIn: [@javsan77](https://www.linkedin.com/in/javier-sanchez-ayte/)
+- Portfolio: [@javsan77](https://javsan77.github.io/)
 
 ## 🙏 Acknowledgments
 
