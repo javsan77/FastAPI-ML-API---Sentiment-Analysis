@@ -107,7 +107,7 @@ class SentimentModel:
     
     def save_model(self):
         """Save model to disk"""
-        if self.model_path.parent.mkdir(parents=True, exist_ok=True)
+        self.model_path.parent.mkdir(parents=True, exist_ok=True)
         joblib.dump(self.model, self.model_path)
         logger.info(f"Model saved in {self.model_path}")
 
