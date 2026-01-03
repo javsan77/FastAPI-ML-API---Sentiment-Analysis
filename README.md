@@ -10,7 +10,7 @@
 
 **Professional REST API with Machine Learning Integration**
 
-[Features](#-features) • [Quick Start](#-quick-start) • [API Docs](#-api-documentation) • [ML Model](#-machine-learning) • [Architecture](#-architecture)
+[Features](#-features) • [Quick Start](#-quick-start) • [API Docs](#-api-documentation) • [ML Model](#-machine-learning) 
 
 </div>
 
